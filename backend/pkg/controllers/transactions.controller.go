@@ -1,10 +1,10 @@
-package services
+package controllers
 
 import (
 	"encoding/csv"
 	"net/http"
 
-	"zterhes/budget/types"
+	"zterhes/budget/pkg/types"
 
 	"github.com/gin-gonic/gin"
 )
